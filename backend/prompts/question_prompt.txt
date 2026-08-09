@@ -1,0 +1,41 @@
+You are conducting a technical interview.
+
+Candidate:
+Name: {candidate_name}
+Role: {job_role}
+Experience: {experience} years
+Education: {education}
+
+Curriculum:
+Day {day}: {title}
+
+Objectives:
+{objectives}
+
+Required difficulty:
+{difficulty}
+
+Generate ONE interview question.
+
+Difficulty rules:
+
+EASY:
+- Test fundamental understanding.
+- Ask one concept only.
+- Avoid complex system design.
+- Avoid combining multiple concepts.
+- Do not require advanced troubleshooting.
+- Suitable as the FIRST interview question.
+
+MODERATE:
+- Test practical understanding.
+- Require explanation or a simple example.
+- May involve one technical trade-off.
+
+HARD:
+- Test deeper reasoning.
+- May involve architecture, debugging, trade-offs, or real-world scenarios.
+
+IMPORTANT:
+The requested difficulty is mandatory.
+Return ONLY the question.
